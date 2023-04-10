@@ -1,0 +1,92 @@
+.sidebar {
+  display: inline-block;
+  position: fixed;
+  left: 98%;
+  top: 66%;
+  cursor: pointer;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  font-size: 4rem;
+  margin-top: -120px;
+}
+
+.sidebar li a:hover {
+  color: #545454;
+}
+
+.sidebar li a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5% 9%;
+  font-weight: 800;
+  color: #545454;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  list-style: none;
+  color: #545454;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links a:hover {
+  color: black;
+}
+
+.nav-left li {
+  padding-right: 30px;
+}
+
+.nav-right li {
+  padding-left: 30px;
+}
+
+#langButtons {
+  color: #545454;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+#deButton {
+  text-decoration: none;
+  background-color: white;
+  border: none;
+  color: #545454;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#enButton {
+  text-decoration: none;
+  background-color: white;
+  border: none;
+  color: #545454;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+/*# sourceMappingURL=header.css.map */
