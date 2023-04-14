@@ -75,7 +75,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 5% 9%;
+  margin: 4% 9%;
   font-weight: 800;
   color: #545454;
 }
@@ -133,7 +133,7 @@ body {
 }
 
 .helloText {
-  margin: 140px;
+  margin: 11%;
   text-align: center;
 }
 
@@ -232,7 +232,9 @@ body {
 }
 
 .heroPics {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -255,10 +257,18 @@ body {
  float: left;
 }
 */
+.HPdiv {
+  width: 15%;
+  height: 70%;
+}
+
 .branch {
-  width: 60%;
-  height: 60%;
-  border: 10px solid #1b1b1b;
+  width: 70%;
+  height: 70%;
+  border-left: 10px solid #1b1b1b;
+  border-right: 10px solid #1b1b1b;
+  border-top: 5px solid #1b1b1b;
+  border-bottom: 5px solid #1b1b1b;
   border-radius: 20px;
 }
 
@@ -390,7 +400,7 @@ body {
 
 #skills {
   width: 70%;
-  height: 600px;
+  height: 500px;
   margin: 0 auto;
   border-top: 2px solid grey;
   border-bottom: 4px solid grey;
@@ -400,7 +410,7 @@ body {
   color: #242424;
   text-align: center;
   font-size: 2.5rem;
-  padding-top: 16%;
+  padding-top: 10%;
 }
 
 #skills h3 {
