@@ -1,0 +1,56 @@
+
+.about {
+    width: 70%;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid grey;
+   }
+   
+   .about p {
+    font-size: 1.2rem;
+   }
+   
+   .about h2 {
+    font-size: 2.5rem;
+    color: var(--main-txt-color);
+    margin-bottom: 2%;
+   }
+   
+   .aboutBlock {
+   display: flex;
+   width: 100%;
+   height: 80%;
+   }
+   
+   #aboutLeft{
+   height: 100%;
+   width: 60%;
+   padding-top: 14%;
+   }
+   
+   #aboutRight{
+     height: 80%;
+     margin-top: 4%;
+     width: 40%;
+     background: rgb(46, 46, 46);
+     border-right: 10px solid rgb(237, 237, 237);
+     border-bottom: 10px solid rgb(237, 237, 237);
+     box-shadow: 10px 10px rgb(46, 46, 46);
+     border-radius: 10px;
+     border-top-left-radius: 40px;
+   }
+   
+   .aboutBlock a {
+    text-decoration: underline;
+    color: var(--lighter-txt);
+   }
+   
+   .aboutBlock p {
+    font-weight: 600;
+    color: var(--lighter-txt);
+   }
+   
+   // About section end

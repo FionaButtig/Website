@@ -1,69 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:ital,wght@0,400;1,500&family=Raleway&family=Smooch&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;700;900&family=Rubik:ital,wght@0,500;1,800&display=swap");
-* {
-  scroll-behavior: smooth;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Rubik";
-}
-
-body {
-  width: 100%;
-  height: 100vw;
-  background: #f0f0f0;
-}
-
-::-webkit-scrollbar {
-  width: 0px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #545454;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #545454;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: white;
-}
-
-.container {
-  width: 100%;
-}
-
-.sidebar {
-  display: inline-block;
-  position: fixed;
-  right: 2%;
-  bottom: 35%;
-  cursor: pointer;
-}
-
-.sidebar ul {
-  list-style: none;
-}
-
-.sidebar li {
-  font-size: 4rem;
-  margin-top: -120px;
-}
-
-.sidebar li a:hover {
-  color: #545454;
-}
-
-.sidebar li a {
-  color: lightgrey;
-  text-decoration: none;
-}
-
 .nav-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,7 +69,8 @@ body {
 }
 
 .helloText {
-  margin: 11%;
+  margin-top: 11%;
+  margin-bottom: 8%;
   text-align: center;
 }
 
@@ -146,7 +83,7 @@ body {
   font-weight: 550;
   margin-top: 10px;
   font-size: 1.8rem;
-  color: #545454;
+  color: var(--lighter-txt);
 }
 
 .tooltip {
@@ -252,31 +189,34 @@ body {
 }
 
 /*
-.pills {
- width: 50%;
- float: left;
-}
-*/
+   .pills {
+    width: 50%;
+    float: left;
+   }
+   */
 .HPdiv {
   width: 15%;
   height: 70%;
 }
 
 .branch {
-  width: 70%;
+  width: 80%;
   height: 70%;
+  margin-left: 10%;
   border-left: 10px solid #1b1b1b;
   border-right: 10px solid #1b1b1b;
   border-top: 5px solid #1b1b1b;
   border-bottom: 5px solid #1b1b1b;
-  border-radius: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .about {
-  text-align: center;
   width: 70%;
   margin: 0 auto;
-  height: 500px;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -295,20 +235,153 @@ body {
 
 .about h2 {
   font-size: 2.5rem;
+  color: var(--main-txt-color);
+  margin-bottom: 2%;
 }
 
 .aboutBlock {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+
+#aboutLeft {
+  height: 100%;
+  width: 60%;
+  padding-top: 14%;
+}
+
+#aboutRight {
+  height: 80%;
+  margin-top: 4%;
+  width: 40%;
+  background: #2e2e2e;
+  border-right: 10px solid #ededed;
+  border-bottom: 10px solid #ededed;
+  -webkit-box-shadow: 10px 10px #2e2e2e;
+          box-shadow: 10px 10px #2e2e2e;
+  border-radius: 10px;
+  border-top-left-radius: 40px;
 }
 
 .aboutBlock a {
   text-decoration: underline;
-  color: #545454;
+  color: var(--lighter-txt);
 }
 
 .aboutBlock p {
   font-weight: 600;
+  color: var(--lighter-txt);
+}
+
+#skills {
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  border-top: 2px solid grey;
+  border-bottom: 4px solid grey;
+}
+
+#skills h2 {
+  color: #242424;
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 10%;
+}
+
+#skills h3 {
+  color: #242424;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 8%;
+}
+
+#skills p {
+  font-size: 1.56rem;
+  text-align: center;
+  padding-top: 4%;
+  font-weight: 600;
   color: #545454;
+}
+
+#skills .Askills {
+  font-size: 1.56rem;
+  text-align: center;
+  padding-top: 4%;
+  font-weight: 600;
+  color: #545454;
+  font-size: 1.2rem;
+}
+
+:root {
+  --main-txt: rgb(35, 35, 35);
+  --lighter-txt: rgb(84, 84, 84);
+}
+
+* {
+  scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+}
+
+body {
+  width: 100%;
+  height: 100vw;
+  background: #f0f0f0;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #545454;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #545454;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+.container {
+  width: 100%;
+}
+
+.sidebar {
+  display: inline-block;
+  position: fixed;
+  right: 2%;
+  bottom: 35%;
+  cursor: pointer;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  font-size: 4rem;
+  margin-top: -120px;
+}
+
+.sidebar li a:hover {
+  color: #545454;
+}
+
+.sidebar li a {
+  color: lightgrey;
+  text-decoration: none;
 }
 
 #stuff-div {
@@ -396,44 +469,5 @@ body {
     width: 100%;
     border: none;
   }
-}
-
-#skills {
-  width: 70%;
-  height: 500px;
-  margin: 0 auto;
-  border-top: 2px solid grey;
-  border-bottom: 4px solid grey;
-}
-
-#skills h2 {
-  color: #242424;
-  text-align: center;
-  font-size: 2.5rem;
-  padding-top: 10%;
-}
-
-#skills h3 {
-  color: #242424;
-  text-align: center;
-  font-size: 2rem;
-  padding-top: 8%;
-}
-
-#skills p {
-  font-size: 1.56rem;
-  text-align: center;
-  padding-top: 4%;
-  font-weight: 600;
-  color: #545454;
-}
-
-#skills .Askills {
-  font-size: 1.56rem;
-  text-align: center;
-  padding-top: 4%;
-  font-weight: 600;
-  color: #545454;
-  font-size: 1.2rem;
 }
 /*# sourceMappingURL=styles.css.map */

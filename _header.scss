@@ -1,41 +1,9 @@
-// sidebar
 
-.sidebar {
-    display: inline-block;
-    position: fixed;
-    left: 98%;
-    top: 66%;
-    cursor: pointer;
-   
-    ul {
-     list-style: none;
-   
-    }
-   
-    li {
-   
-     font-size: 4rem;
-     margin-top: -120px;
-    }
-   
-    li a:hover {
-     color: rgb(84, 84, 84);
-   
-    }
-   
-    li a {
-     color: lightgrey;
-     text-decoration: none;
-    }
-   }
-   
-   // Navbar
-   
-   .nav-links {
+.nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 5% 9%;
+    margin: 4% 9%;
     font-weight: 800;
     color: rgb(84, 84, 84);
    }
@@ -79,6 +47,7 @@
        font-size: 1rem;
        font-weight: 800;
        cursor: pointer;
+       border-bottom: 2px solid rgb(185, 185, 185);
    }
    #enButton{
        text-decoration: none;
@@ -88,7 +57,7 @@
        font-size: 1rem;
        font-weight: 800;
        cursor: pointer;
+       border-bottom: 2px solid rgb(185, 185, 185);
    }
    
    
-   // Navbar end
